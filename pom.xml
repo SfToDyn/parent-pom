@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>e1c57e22-8d0b-4ff5-98ee-0e02abb8c945</groupId>
+	<groupId>b1511d24-da62-4194-a313-edc1a88dfbd3</groupId>
 	<artifactId>parent-pom</artifactId>
 	<version>1.0.0</version>
 	<packaging>pom</packaging>
@@ -150,6 +150,31 @@
 				<version>1.2.2</version>
 				<classifier>mule-plugin</classifier>
 			</dependency>
+<dependency>
+			<groupId>com.mulesoft.connectors</groupId>
+			<artifactId>mule-sharepoint-connector</artifactId>
+			<version>3.6.1</version>
+			<classifier>mule-plugin</classifier>
+		</dependency>
+		<dependency>
+			<groupId>org.mule.connectors</groupId>
+			<artifactId>mule-file-connector</artifactId>
+			<version>1.5.2</version>
+			<classifier>mule-plugin</classifier>
+		</dependency>
+		<dependency>
+			<groupId>org.mule.modules</groupId>
+			<artifactId>mule-module-file-extension-common</artifactId>
+			<version>1.4.3</version>
+			<classifier>mule-plugin</classifier>
+		</dependency>
+		<dependency>
+			<groupId>org.mule.connectors</groupId>
+			<artifactId>mule-objectstore-connector</artifactId>
+			<version>1.2.2</version>
+			<classifier>mule-plugin</classifier>
+		</dependency>
+
 		</dependencies>
 	</dependencyManagement>
 	<repositories>
